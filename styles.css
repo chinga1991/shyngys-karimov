@@ -93,6 +93,15 @@ header h1 {
     color: #777;
 }
 
+.profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 /* Skills Section */
 .skills-container {
     display: flex;
